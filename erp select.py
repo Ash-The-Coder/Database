@@ -15,7 +15,7 @@ for i in ab:
     else:
         count1+=1
 
-avg = (count1/(count1+count))
+avg = (count1/(count1+count)*100)
 
 print(f" present = {count1},\n absent = {count},\n attendance percentage = {round(avg,2)}\n")
 while b == 0:
