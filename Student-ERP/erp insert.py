@@ -11,7 +11,7 @@ for i in range (n):
     dy = int(input("Enter the day: "))
     yr = int(input("Enter the year: "))
     prab =(input("Were you present or absent p/a"))
-    data.execute(f'''INSERT INTO attd VALUES ('{sub}',{dt},{dy},{yr},{(prab)})''')
+    data.execute(f'''INSERT INTO attd VALUES ('{sub}',{dt},{dy},{yr},'{prab}')''')
 
 
 erpdtb.commit()
